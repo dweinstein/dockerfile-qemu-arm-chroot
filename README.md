@@ -1,7 +1,7 @@
 Overview
 ========
 Run ARM binaries from within a docker container on your x86_64 system. This can
-assist with cross compiling QEMU systems from within docker, or a variety of
+assist with cross compiling ARM systems from within docker, or a variety of
 other tasks.
 
 [![ScreenShot](http://i.imgur.com/FJbYVVo.png?1)](https://drive.google.com/file/d/0B25hHW4ATym7MW9uc1R4MC0wZGM/edit?usp=sharing)
