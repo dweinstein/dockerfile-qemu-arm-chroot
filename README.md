@@ -65,8 +65,10 @@ Troubleshooting
   custom boot2docker kernel for this
   [here](https://github.com/dweinstein/boot2docker/releases/tag/v1.2.1-binfmt).
 
-- Try checking `update-binfmt --display` to see if qemu-arm-static is
+- Try checking `update-binfmts --display` to see if qemu-arm-static is
   registered
+
+- Make sure binfmts is mounted (`mount`) - if not `mount binfmt_misc -t binfmt_misc /proc/sys/fs/binfmt_misc`
 
 
 Related reading
