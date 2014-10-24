@@ -74,3 +74,4 @@ Related reading
 * binfmt-misc - https://www.kernel.org/doc/Documentation/binfmt_misc.txt
 * docker volumes - https://docs.docker.com/userguide/dockervolumes/
 * https://wiki.debian.org/QemuUserEmulation
+* [Blog post](http://neophob.com/2014/10/run-arm-binaries-in-your-docker-container-using-boot2docker/) by Michael Vogt using this repo.
