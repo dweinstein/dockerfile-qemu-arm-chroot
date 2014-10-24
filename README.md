@@ -41,6 +41,8 @@ popd
 docker run --privileged -t -i --rm --volumes-from qemu-arm_data qemu-arm
 ```
 
+In container, make sure binfmt is mounted (`mount binfmt_misc -t binfmt_misc /proc/sys/fs/binfmt_misc`)
+
 Running
 --------
 now in the docker container shell:
@@ -61,6 +63,7 @@ Try running `uname -a` or running some files inside your chroot.
 
 Troubleshooting
 ---------------
+- Make sure binfmt is mounted: `mount binfmt_misc -t binfmt_misc /proc/sys/fs/binfmt_misc`
 - Maybe your host docker kernel doesn't have binfmt_misc support. I build a
   custom boot2docker kernel for this
   [here](https://github.com/dweinstein/boot2docker/releases/tag/v1.2.1-binfmt).
