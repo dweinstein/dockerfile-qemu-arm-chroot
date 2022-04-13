@@ -1,4 +1,4 @@
-FROM dockerfile/ubuntu:latest
+FROM ubuntu:latest
 MAINTAINER David Weinstein <dweinst@insitusec.com>
 
 ENV DEBIAN_FRONTEND noninteractive
